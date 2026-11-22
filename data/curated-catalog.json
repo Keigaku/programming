@@ -1,0 +1,22 @@
+{
+  "mappings": [
+    {
+      "itemCode": "tokulab-demo:beauty-001",
+      "customAmazonKeyword": "ビタミンC 美容液 保湿 スキンケア",
+      "editorialNote": "楽天公式ショップの料率アップ対象。Amazonではドラッグストア・ビューティー5%カテゴリとして比較導線を併設。",
+      "updatedAt": "2026-11-22T06:00:00.000Z"
+    },
+    {
+      "itemCode": "tokulab-demo:gadget-001",
+      "customAmazonKeyword": "ワイヤレスヘッドホン ノイズキャンセリング マルチポイント",
+      "editorialNote": "高単価ガジェットはAmazon1,000円上限廃止の恩恵大。アソシエイト・ツールバーでASINまたは短縮URLをここに登録すると直リンク化されます。",
+      "updatedAt": "2026-11-22T06:00:00.000Z"
+    }
+  ],
+  "creatorsProgress": {
+    "qualifyingSalesLast30Days": 0,
+    "targetSales": 10,
+    "creatorsApiEnabled": false,
+    "lastUpdatedAt": "2026-11-22T06:00:00.000Z"
+  }
+}

@@ -1,0 +1,51 @@
+name: Sync Rakuten Deals & SNS Queue
+
+on:
+  schedule:
+    # 日本時間 06:00 / 12:00 / 18:00 / 00:00 に最新データを自動同期
+    - cron: '0 3,9,15,21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync Rakuten 2026 API & regenerate SNS queue
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+          RAKUTEN_APP_ORIGIN: ${{ secrets.RAKUTEN_APP_ORIGIN }}
+          AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+        run: |
+          npm run sync:rakuten
+          npm run sns:generate
+          npm run check:compliance
+
+      - name: Commit updated deals & SNS queue if changed
+        run: |
+          git config user.name "tokulab-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/synced-deals.json data/sns-queue.json data/sns-queue.csv
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): sync latest Rakuten deals & SNS queue"
+            git push
+          fi

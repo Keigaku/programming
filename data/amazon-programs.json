@@ -1,0 +1,122 @@
+[
+  {
+    "id": "amazon-business",
+    "name": "Amazonビジネス（法人・個人事業主）",
+    "badge": "最高単価 ¥3,000/件",
+    "headline": "法人・個人事業主の仕入れや備品購入を法人価格＆請求書払いで効率化",
+    "summary": "登録料・年会費無料で始められるビジネス専用アカウント。インボイス対応請求書の一括ダウンロードや法人限定割引が利用でき、副業・フリーランスの方でも開業届等があれば登録可能です。",
+    "targetAudience": "法人担当者・個人事業主・フリーランス・副業ビジネスオーナー",
+    "rewardYen": 3000,
+    "rewardNote": "新規Amazonビジネスアカウント登録＆確認完了で1件あたり3,000円（API不要）",
+    "officialBaseUrl": "https://www.amazon.co.jp/tryAB",
+    "ctaLabel": "Amazonビジネスを無料で登録確認",
+    "highlights": [
+      "基本アカウントの登録料・年会費はずっと無料",
+      "法人限定価格・数量割引＆適格請求書（インボイス）自動発行",
+      "経理処理がラクになる請求書払い・購買承認フロー対応"
+    ],
+    "conversionTips": "確定申告・経費精算・オフィス備品・デスク環境記事の末尾に『事業用購入ならAmazonビジネスで領収書管理が自動化できる』文脈で配置すると高CVR。",
+    "priority": 1,
+    "image": "/images/cat-gadget.jpg"
+  },
+  {
+    "id": "audible",
+    "name": "Amazon Audible（オーディブル）プレミアムプラン",
+    "badge": "最主力 ¥2,000/件",
+    "headline": "プロ朗読のベストセラー20万作品以上を、通勤・家事の「耳時間」で聴き放題",
+    "summary": "ビジネス書・小説・ポッドキャストをオフライン再生で楽しめるオーディオブックサービス。初回無料体験の対象なら0円で始められ、期間中の解約手続きもオンラインで完結します。",
+    "targetAudience": "通勤・移動が多いビジネスパーソン、育児・家事中にインプットしたい方",
+    "rewardYen": 2000,
+    "rewardNote": "無料体験の新規登録でも1件あたり2,000円（最も成約を取りやすい主力CPA）",
+    "officialBaseUrl": "https://www.amazon.co.jp/b/?node=5816607051",
+    "ctaLabel": "Audibleの無料体験対象か確認する",
+    "highlights": [
+      "初回30日間の無料体験キャンペーンを随時実施（対象者は0円で開始）",
+      "話題のビジネス書・自己啓発・人気小説が聴き放題対象",
+      "オフライン再生・倍速再生対応でスキマ時間がそのまま学び時間に"
+    ],
+    "conversionTips": "『読書する時間がない』『話題のビジネス書おすすめ5選』記事やXの朝7:30通勤前ポストで訴求すると、APIなしでも初月から10件突破しやすい最強案件。",
+    "priority": 1,
+    "image": "/images/cat-reading.jpg"
+  },
+  {
+    "id": "kindle-unlimited",
+    "name": "Kindle Unlimited（Kindle+）",
+    "badge": "高CVR ¥1,000/件",
+    "headline": "ビジネス書・雑誌・実用書・マンガが500万冊以上読み放題",
+    "summary": "スマホ・タブレット・Kindle端末すべてで同期して読める定額読み放題。雑誌2冊分以下の月額で、初回無料体験や割引キャンペーンの対象となるケースも豊富です。",
+    "targetAudience": "雑誌・ビジネス書・実用書を月に2冊以上読む方、資格勉強中の方",
+    "rewardYen": 1000,
+    "rewardNote": "無料体験の新規登録で1件あたり1,000円（Audibleとのセット訴求に最適）",
+    "officialBaseUrl": "https://www.amazon.co.jp/kindle-dbs/hz/signup",
+    "ctaLabel": "Kindle Unlimitedの特典を見る",
+    "highlights": [
+      "和書・洋書・雑誌・マンガあわせて500万冊以上が読み放題対象",
+      "スマホの無料Kindleアプリでも即スタート可能（専用端末不要）",
+      "Audibleと併用することで『読む＋聴く』のインプット効率が倍増"
+    ],
+    "conversionTips": "Audible紹介ページや書籍レビュー記事で『目で読む派はKindle Unlimited、耳で聴く派はAudible』と並置し、ダブル成約を狙う。",
+    "priority": 1,
+    "image": "/images/cat-reading.jpg"
+  },
+  {
+    "id": "amazon-music-unlimited",
+    "name": "Amazon Music Unlimited",
+    "badge": "音楽サブスク ¥1,000/件",
+    "headline": "1億曲以上が広告なし・HD高音質で聴き放題＆オフライン再生",
+    "summary": "ロスレス高音質（HD / Ultra HD）と空間オーディオに対応。ワイヤレスイヤホン・ヘッドホン比較記事との相性が抜群で、無料体験から試せます。",
+    "targetAudience": "ワイヤレスイヤホン検討層、作業用BGMや高音質ストリーミングを求める方",
+    "rewardYen": 1000,
+    "rewardNote": "無料体験の新規登録で1件あたり1,000円",
+    "officialBaseUrl": "https://www.amazon.co.jp/music/unlimited/",
+    "ctaLabel": "Music Unlimitedを無料で試す",
+    "highlights": [
+      "1億曲以上が広告なし・スキップ制限なしで聴き放題",
+      "追加料金なしでHD / Ultra HD高音質＆空間オーディオ対応",
+      "キャンペーン時は最大3ヶ月無料になる大型プロモーションも開催"
+    ],
+    "conversionTips": "ノイズキャンセリングイヤホン・ヘッドホン・スピーカー比較記事の『音質を最大限引き出すサービス』枠として自然に接続。",
+    "priority": 2,
+    "image": "/images/cat-gadget.jpg"
+  },
+  {
+    "id": "prime-student",
+    "name": "Prime Student（学生限定プライム）",
+    "badge": "学生向け ¥1,000/件",
+    "headline": "6ヶ月間の無料体験＋通常プライムの半額で配送・動画・音楽特典",
+    "summary": "大学・大学院・短期大学・専門学校・高専に通う学生限定の超優遇プラン。6ヶ月の無料体験と書籍ポイント還元・お急ぎ便無料が利用できます。",
+    "targetAudience": "大学生・専門学生・大学院生（特に3〜5月の新生活シーズン）",
+    "rewardYen": 1000,
+    "rewardNote": "6ヶ月無料体験の新規登録で1件あたり1,000円",
+    "officialBaseUrl": "https://www.amazon.co.jp/b?ie=UTF8&node=2410972051",
+    "ctaLabel": "Prime Studentの6ヶ月体験を見る",
+    "highlights": [
+      "通常の6倍となる『6ヶ月間無料体験』で学生のハードルが極めて低い",
+      "お急ぎ便無料・Prime Video見放題・書籍まとめ買いポイント還元",
+      "体験終了後も月額300円（年額2,950円）の半額水準で継続可能"
+    ],
+    "conversionTips": "新生活家電・ノートPC・資格書・教科書購入ガイドに組み込むと成約率が跳ね上がる。",
+    "priority": 2,
+    "image": "/images/cat-daily.jpg"
+  },
+  {
+    "id": "amazon-prime",
+    "name": "Amazonプライム（30日間無料体験）",
+    "badge": "王道導線 ¥500/件",
+    "headline": "お急ぎ便無料・Prime Video・プライム限定セールを30日間0円で体験",
+    "summary": "Amazonで買い物するなら必須の会員プログラム。プライムデー・ブラックフライデー等の大型セール時期は無料体験からの登録率が急上昇します。",
+    "targetAudience": "Amazonでの買い物・動画視聴・セール参加を検討する一般ユーザー全般",
+    "rewardYen": 500,
+    "rewardNote": "30日間無料体験の新規登録で1件あたり500円（セール期の大量獲得向け）",
+    "officialBaseUrl": "https://www.amazon.co.jp/amazonprime",
+    "ctaLabel": "Amazonプライム30日無料体験を見る",
+    "highlights": [
+      "対象商品の配送料・お急ぎ便・日時指定便が何度でも無料",
+      "Prime Videoの映画・ドラマ・アニメ見放題＋Amazon Photos容量無制限",
+      "ブラックフライデーやプライムデーの先行セール・ポイントアップに必須"
+    ],
+    "conversionTips": "全セール速報ページ・商品比較カードの直下に『送料を無料にするには30日無料体験』として添えるだけで取りこぼしを回収。",
+    "priority": 3,
+    "image": "/images/hero-editorial.jpg"
+  }
+]
