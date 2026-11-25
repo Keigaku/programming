@@ -12,7 +12,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 78.5,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-x-deal-2",
@@ -27,7 +27,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 65.3,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-x-deal-3",
@@ -42,7 +42,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 81.1,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-x-deal-4",
@@ -57,7 +57,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 24.4,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-x-prog-amazon-business",
@@ -72,7 +72,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 105,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-x-prog-audible",
@@ -87,7 +87,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 70,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-x-prog-kindle-unlimited",
@@ -102,7 +102,7 @@
     "isWithinXLimit": true,
     "estimatedEpcYen": 35,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   },
   {
     "id": "sns-threads-guide-audible-vs-kindle-unlimited-guide",
@@ -117,6 +117,6 @@
     "isWithinXLimit": false,
     "estimatedEpcYen": 24.5,
     "hasPrDisclosure": true,
-    "createdAt": "2026-11-24T23:49:49.344Z"
+    "createdAt": "2026-11-25T12:30:20.623Z"
   }
 ]
